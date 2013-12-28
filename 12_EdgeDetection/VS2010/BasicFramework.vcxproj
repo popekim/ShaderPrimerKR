@@ -10,6 +10,20 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\ShaderFramework.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\ShaderFramework.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\EdgeDetection.fx" />
+    <None Include="..\Emboss.fx" />
+    <None Include="..\EnvironmentMapping.fx" />
+    <None Include="..\Grayscale.fx" />
+    <None Include="..\NoEffect.fx" />
+    <None Include="..\Sepia.fx" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{8CFD9454-E721-4910-BCAE-503809497D20}</ProjectGuid>
     <RootNamespace>BasicFramework</RootNamespace>
@@ -94,20 +108,6 @@
       <TargetMachine>MachineX86</TargetMachine>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <None Include="EdgeDetection.fx" />
-    <None Include="Emboss.fx" />
-    <None Include="EnvironmentMapping.fx" />
-    <None Include="Grayscale.fx" />
-    <None Include="NoEffect.fx" />
-    <None Include="Sepia.fx" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="ShaderFramework.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="ShaderFramework.h" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

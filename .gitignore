@@ -1,0 +1,12 @@
+*.user
+
+*.opensdf
+
+*.sdf
+
+Debug
+
+Release
+
+*.suo
+
