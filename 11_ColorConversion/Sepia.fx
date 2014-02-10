@@ -73,7 +73,7 @@ float4 ColorConversion_Sepia_Pixel_Shader_ps_main(PS_INPUT Input) : COLOR
 
 	sepia.r = dot(tex.rgb, float3(0.393f, 0.769f, 0.189f));
 	sepia.g = dot(tex.rgb, float3(0.349f, 0.686f, 0.168f));
-	sepia.b = dot(tex.rbb, float3(0.272f, 0.534f, 0.131f));
+	sepia.b = dot(tex.rgb, float3(0.272f, 0.534f, 0.131f));
 
 	return sepia;
 }
