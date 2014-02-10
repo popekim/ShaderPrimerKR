@@ -10,3 +10,6 @@ Release
 
 *.suo
 
+Error.txt
+
+ipch
